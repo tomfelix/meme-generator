@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-around;
+  height: 100vh;
+  width: auto;
+  overflow: hidden;
+}
+
+.templates_array {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  border-bottom: 3px solid black;
+}
+
+.template {
+  height: 200px;
+  width: auto;
+}
+
+.template img {
+  height: 100%;
+  width: auto;
+}
+
+.template_chosen {
+  display: flex;
+  flex-direction: row;
+  /* min-height: 500px;
+  max-height: 500px; */
+  width: 100%;
+  /* margin: 10px; */
+  align-self: center;
+  overflow: auto;
+  /* border: 1px solid black; */
+  position: relative;
+  height: 100%;
+}
+
+.template_chosen img {
+  height: auto;
+  max-width: 60%;
+  border: 1px solid black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 40%;
+  justify-content: space-around;
+}
